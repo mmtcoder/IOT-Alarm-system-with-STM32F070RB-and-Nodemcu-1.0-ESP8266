@@ -14,6 +14,8 @@ Used Materials :
 5) Buzzer
 6) 3.3v to 5v logic level converter( It is not necessary but GPIO output and input voltage aren't the same with each other)
 
+IMPORTANT NOTE: For Nodemcu ESP8266 libraries, you need to download "EspMQTTClient" and "PubSubClient" libraries 
+
 Beginning of the Microcontrollers
 
 When ESP8266 start to run, It connects to wifi and then mqtt server.For testing to

@@ -26,14 +26,21 @@ It waits receiving code from ESP8266.
 You should check the code and need to remember which code is what does it mean..
 
 //Receiving from ESP8266
+
  uint8_t ALARM_ACTIVATE_CODE [] = {'2','0'};
+ 
  uint8_t ALARM_DEACTIVATE_CODE [] = {'2','1'};
+ 
  uint8_t MSG_SENT_TO_CLT [] = {'3','0'};
+ 
  uint8_t NOMSG_SENT_TO_CLT [] = {'3','1'};
 
 //Sending to ESP8266
+
  uint8_t ALARM_ACTIVATED_CODE [] ={'2','3'};
+ 
  uint8_t ALARM_DEACTIVATED_CODE [] ={'2','4'};
+ 
  uint8_t SYSTEM_ALARMED_CODE [] = {'2','5'};
 
 

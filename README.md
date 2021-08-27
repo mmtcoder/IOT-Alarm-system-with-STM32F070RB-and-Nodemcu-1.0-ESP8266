@@ -72,7 +72,7 @@ You should check the code and need to remember which code is what does it mean..
 **********ALARM SCENARIO*********
 
 
-Firstly, we send a alarm_activate_code (20) code to esp
+Firstly, we send a alarm_activate_code (20) code to esp from mqtt server
 and then If ESP has mqtt connection, it send to alarm_activated_code
 (23) to server like mobile phone, computer ( for this example hivemq 
 websocket client) after that ESP sends alarm_activated_code to STM32

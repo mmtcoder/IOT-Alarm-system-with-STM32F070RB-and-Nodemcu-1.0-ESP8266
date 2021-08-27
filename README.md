@@ -12,7 +12,7 @@ Used Materials :
 3) QAPASS 16 x 2 LED with I2C module
 4) PIR sensor
 5) Buzzer
-6) 3.3v to 5v logic level converter( It is not necessary but GPIO output and input voltage aren't the same with each other)
+6) 3.3v to 5v logic level converter( It is not necessary but GPIO output and input voltages aren't the same with each other)
 
 IMPORTANT NOTE: For Nodemcu ESP8266 libraries, you need to download "EspMQTTClient" and "PubSubClient" libraries 
 

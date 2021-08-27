@@ -9,9 +9,9 @@
 
 // Update these with values suitable for your network.
 
- char* ssid = "inciTekstil";
- char* password =  "tahahamza1234";
- char* mqttServer = "broker.mqttdashboard.com";
+ char* ssid = "";
+ char* password =  "";
+ char* mqttServer = "";
 
 //Transmit to STM32
  char ALARM_ACTIVATE_CODE [] = {'2','0'};
@@ -24,7 +24,7 @@
  char ALARM_DEACTIVATED_CODE [] ={'2','4'};
  char SYSTEM_ALARMED_CODE [] = {'2','5'};
 
- char CLIENT_TOPIC1 [] = "alarm/one";
+ char CLIENT_TOPIC1 [] = ""; //Define your own topic Exmp : alarm/one
 
 WiFiClient espClient;
 PubSubClient client(espClient);

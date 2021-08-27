@@ -16,6 +16,22 @@ Used Materials :
 
 IMPORTANT NOTE: For Nodemcu ESP8266 libraries, you need to download "EspMQTTClient" and "PubSubClient" libraries 
 
+NODEMCU ESP8266 PINS:
+
+D9 : Rx
+D10 :Tx
+GND
+
+STM32F070RB PINS :
+
+PA10 :USART1_RX
+PA9 : USART1_TX
+PC4 : Buzzer(GPIO_Output)
+PC8 : PIR(GPIO_EXTI)
+PB9 : I2C1_SDA
+PB8 : I2C1_SCL
+
+
 Beginning of the Microcontrollers
 
 When ESP8266 start to run, It connects to wifi and then mqtt server.For testing to

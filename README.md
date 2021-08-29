@@ -40,7 +40,7 @@ PB9 : I2C1_SDA
 
 PB8 : I2C1_SCL
 
-FOR VİDEO : https://www.youtube.com/watch?v=8t1lhea4bvM
+FOR ALARM SCENARIO VIDEO : https://www.youtube.com/watch?v=8t1lhea4bvM
 
 Beginning of the Microcontrollers
 
